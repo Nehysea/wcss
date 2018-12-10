@@ -1,0 +1,19 @@
+{
+  "name": "wcss-master",
+  "version": "1.0.0",
+  "description": "[ ![Codeship Status for caseydierking/wcss](https://app.codeship.com/projects/2824e4d0-accd-0136-7476-3a0d14b51224/status?branch=master)](https://app.codeship.com/projects/309450)",
+  "main": "public/scripts/main.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "jsdom": "^13.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
+  },
+  "scripts": {
+    "test": "mocha --require jsdom.js --recursive"
+  },
+  "author": "",
+  "license": "ISC"
+}
